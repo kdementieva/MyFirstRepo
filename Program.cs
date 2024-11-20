@@ -3,8 +3,8 @@ class Program
 {
   static void Main()
   {
-    int width = 10;
-    int height = 10;
+    int width = 20;
+    int height = 20;
     int bombCount = 15;
     char[,] board = InitializeBoard(width, height, bombCount);
     char[,] displayBoard = InitializeDisplayBoard(width, height);
